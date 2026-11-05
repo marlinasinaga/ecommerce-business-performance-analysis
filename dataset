@@ -1,0 +1,26 @@
+# Dataset
+
+## Dataset Overview
+
+This project uses a simulated e-commerce dataset from Tokopaedi, provided as part of the MySkill Fullstack Data Analysis Final Project.
+
+The dataset consists of six tables containing information about orders, products, customers, payments, transactions, and marketing funnels.
+
+### Dataset Tables
+
+| Table Name | Description |
+|---|---|
+| customer_detail | Customer profile and registration information |
+| funnel_detail | Customer funnel events and conversion information |
+| order_detail | Order and product-level transaction information |
+| payment_detail | Payment method information |
+| product_detail | Product attributes, categories, brands, and COGS |
+| transaction_detail | Transaction-level financial information |
+
+### File Format
+
+The original dataset files are provided in TXT format.
+
+These datasets are used as the source data for SQL exploration, data preparation, and business case analysis.
+
+**Note:** The dataset is simulated and does not represent actual Tokopedia transactions.
