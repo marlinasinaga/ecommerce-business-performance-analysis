@@ -2,11 +2,9 @@
 
 ## Dataset Overview
 
-This project uses a simulated e-commerce dataset from Tokopaedi, provided as part of the MySkill Fullstack Data Analysis Final Project.
+This project uses a simulated Tokopaedi e-commerce dataset provided by MySkill as part of the Fullstack Data Analysis Final Project.
 
-The dataset consists of six tables containing information about orders, products, customers, payments, transactions, and marketing funnels.
-
-### Dataset Tables
+The dataset consists of six tables:
 
 | Table Name | Description |
 |---|---|
@@ -17,10 +15,9 @@ The dataset consists of six tables containing information about orders, products
 | product_detail | Product attributes, categories, brands, and COGS |
 | transaction_detail | Transaction-level financial information |
 
-### File Format
+## Dataset Access
 
-The original dataset files are provided in TXT format.
+The complete dataset is hosted on Google Drive due to file size limitations.
 
-These datasets are used as the source data for SQL exploration, data preparation, and business case analysis.
+**[Download Dataset – Google Drive](https://drive.google.com/drive/folders/1-6FNBiOsJpfUNIcAhcErJdefj6YQnQdV?usp=drive_link)**
 
-**Note:** The dataset is simulated and does not represent actual Tokopedia transactions.
