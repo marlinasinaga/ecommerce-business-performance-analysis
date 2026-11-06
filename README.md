@@ -132,3 +132,18 @@ Below is the data used.
 
 [Download Dataset – Google Drive](https://drive.google.com/drive/folders/1-6FNBiOsJpfUNIcAhcErJdefj6YQnQdV?usp=drive_link)
 
+## Data Preparation
+
+### Duplicate Data Check and Null Value Check
+
+Duplicate records and null values were identified using SQL queries in PostgreSQL (pgAdmin).
+
+The following query was used to identify potential duplicate records and null values in the **`customer_detail`**, **`funnel_detail`**, **`order_detail`**, **`payment_detail`**, **`product_detail`**, and **`transaction_detail`** tables.
+
+![Duplicate Check Query](images/duplicate_check.png)
+
+**Query Result:**
+
+The query results were reviewed to identify duplicate records and null values that could potentially affect the accuracy of the analysis.
+
+
