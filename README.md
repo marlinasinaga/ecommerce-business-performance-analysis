@@ -101,7 +101,7 @@ The dataset consists of six tables containing information about orders, products
 ![E-commerce Dataset Schema](tbel%20scheme.png)
 ## Dataset Access
 
-The complete dataset is hosted on Google Drive due to file size limitations.
+Below is the data used.
 
 [Download Dataset – Google Drive](https://drive.google.com/drive/folders/1-6FNBiOsJpfUNIcAhcErJdefj6YQnQdV?usp=drive_link)
 
