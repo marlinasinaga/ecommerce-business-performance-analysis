@@ -189,8 +189,8 @@ To analyze the annual sales volume (quantity) of each product category and ident
 
 The query results show the total quantity sold for each product category from 2020 to 2024.
 
-![Category Sales Trend Query Result](caseno2.png)
-
+![Category Sales Trend Query Result](caseno2.png) 
+![Category Sales Trend Query Result](caseno2.png) 
 **Key Findings:**
 - **Food & Beverage** recorded the highest sales volume in 2020, 2021, and 2022.
 - **Beauty & Personal Care** achieved the highest sales volume in 2023, with 4,921 units sold.
