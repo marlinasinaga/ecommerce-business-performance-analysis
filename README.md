@@ -1,6 +1,33 @@
 # ecommerce-business-performance-analysis
 E-commerce Business Performance Analysis using SQL, Python and Looker Studio | MySkill Fullstack Data Analysis Final Project
 
+## Business Problem
+
+### Background
+
+As an e-commerce business continues to grow, management needs a comprehensive understanding of its business performance across sales, customer behavior, product performance, payment methods, and marketing channels.
+
+However, transaction data alone does not provide sufficient insights into the factors driving revenue, customer conversion, and overall business performance.
+
+### Stakeholder Needs
+
+| Stakeholder | Business Needs |
+|---|---|
+| Board of Directors (BoD) | Evaluate overall business performance, revenue growth, and profitability to support strategic decisions. |
+| Marketing Team | Identify effective marketing channels and improve customer conversion rates. |
+| Sales Team | Understand product and category performance to optimize sales strategies. |
+| Product & Business Team | Identify high-performing and underperforming products to support product portfolio decisions. |
+| Finance Team | Monitor revenue, discounts, costs, and profitability to improve financial performance. |
+
+### Expected Outcomes
+
+This project is expected to deliver:
+
+- A comprehensive overview of e-commerce business performance.
+- Identification of key revenue and profitability drivers.
+- Insights into customer purchasing behavior and marketing funnel conversion.
+- Identification of underperforming products and business areas.
+- Data-driven recommendations to improve revenue, profitability, and operational efficiency.
 
 ## Dataset Overview
 
