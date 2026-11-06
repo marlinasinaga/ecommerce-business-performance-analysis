@@ -141,7 +141,7 @@ The following query was used to identify potential duplicate records and null va
 
 **SQL Query:** [View SQL Script](SQL/03_Data_Preparation/cek_duplicate_dan_null.sql)
 
-![Duplicate Check Query](images/Customer detail result null and duplicate.png)
+![Customer Detail Result Null and Duplicate](./customer-detail-null-and-duplicate.png)
 
 **Query Result:**
 
