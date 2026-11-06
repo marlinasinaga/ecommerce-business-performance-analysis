@@ -98,7 +98,7 @@ The dataset consists of six tables containing information about orders, products
 | transaction_discount | Transaction-level discount |
 | total_paid | Total amount paid |
 
-![E-commerce Dataset Schema](images/tble_scheme.png)
+![E-commerce Dataset Schema](tbel%20scheme.png)
 ## Dataset Access
 
 The complete dataset is hosted on Google Drive due to file size limitations.
