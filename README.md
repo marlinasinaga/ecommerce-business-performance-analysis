@@ -135,15 +135,15 @@ Below is the data used.
 ## Data Preparation
 
 ### Duplicate Data Check and Null Value Check
-
 Duplicate records and null values were identified using SQL queries in PostgreSQL (pgAdmin).
 
 The following query was used to identify potential duplicate records and null values in the **`customer_detail`**, **`funnel_detail`**, **`order_detail`**, **`payment_detail`**, **`product_detail`**, and **`transaction_detail`** tables.
 
-![Duplicate Check Query](images/duplicate_check.png)
+**SQL Query:** [View SQL Script](SQL/03_Data_Preparation/cek_duplicate_dan_null.sql)
+
+![Duplicate Check Query](images/Customer detail result null and duplicate.png)
 
 **Query Result:**
 
 The query results were reviewed to identify duplicate records and null values that could potentially affect the accuracy of the analysis.
-
 
