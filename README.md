@@ -147,3 +147,26 @@ The query results were reviewed to identify duplicate records and null values th
 ![Customer Detail Result Null and Duplicate](Customer%20detail%20result%20null%20and%20duplicate.png)
 *(The following image shows an example of the query results for the duplicate and null value check in the `customer_detail` table.)*
 
+## Business Case Studies & Analysis
+
+### Case Study 1: Monthly Sales Performance Analysis
+
+**Business Problem**
+
+The Board of Directors requires a comprehensive overview of the company's monthly sales performance in 2024 to support business performance evaluation and strategic decision-making.
+
+**Business Question**
+How much total sales revenue was generated each month throughout 2024?
+
+**Objective**
+
+To analyze monthly sales performance by calculating total sales revenue based on the `total_paid` column in the `transaction_detail` table.
+
+**Analysis Approach**
+
+- Filter transaction data for the year 2024.
+- Aggregate total sales revenue by month.
+- Present the monthly sales performance from January to December 2024.
+
+**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/01_monthly_sales_analysis.sql)
+
