@@ -145,5 +145,5 @@ The following query was used to identify potential duplicate records and null va
 
 The query results were reviewed to identify duplicate records and null values that could potentially affect the accuracy of the analysis.
 ![Customer Detail Result Null and Duplicate](Customer%20detail%20result%20null%20and%20duplicate.png)
-
+*(The following image shows an example of the query results for the duplicate and null value check in the `customer_detail` table.)*
 
