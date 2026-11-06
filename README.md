@@ -172,3 +172,32 @@ To analyze monthly sales performance by calculating total sales revenue based on
 
 ![result query](caseno1.png) 
 
+### Case Study 2: Product Category Sales Trend Analysis
+
+**Business Problem**
+The Warehouse Manager requires an annual overview of sales volume by product category from 2020 to 2024 to support inventory planning and restocking decisions.
+
+**Business Question**
+How many units were sold for each product category annually from 2020 to 2024?
+
+**Objective**
+To analyze the annual sales volume (quantity) of each product category and identify category-level demand trends to support data-driven restocking decisions.
+
+**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/02_category_sales_trend.sql)
+
+**Query Result:**
+
+The query results show the total quantity sold for each product category from 2020 to 2024.
+
+![Category Sales Trend Query Result](images/category_sales_trend.png)
+
+**Key Findings:**
+- **Food & Beverage** recorded the highest sales volume in 2020, 2021, and 2022.
+- **Beauty & Personal Care** achieved the highest sales volume in 2023, with 4,921 units sold.
+- **Fashion & Footwear** recorded the highest sales volume in 2024, with 5,143 units sold.
+- Food & Beverage sales volume decreased from 9,368 units in 2021 to 4,973 units in 2024.
+- Fashion & Footwear sales volume increased to 5,143 units in 2024, making it the leading category for that year.
+
+**Business Recommendation:**
+The Warehouse Manager may use these annual sales volume trends as a reference for restocking decisions. Categories with consistently high sales volume should be prioritized for inventory monitoring, while changes in category demand should be considered when adjusting stock levels.
+
