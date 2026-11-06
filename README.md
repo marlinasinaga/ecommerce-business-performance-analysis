@@ -139,11 +139,11 @@ Duplicate records and null values were identified using SQL queries in PostgreSQ
 
 The following query was used to identify potential duplicate records and null values in the **`customer_detail`**, **`funnel_detail`**, **`order_detail`**, **`payment_detail`**, **`product_detail`**, and **`transaction_detail`** tables.
 
-**SQL Query:** [View SQL Script](SQL/03_Data_Preparation/cek_duplicate_dan_null.sql)
-
-![Customer Detail Result Null and Duplicate](./customer-detail-null-and-duplicate.png)
+**SQL Query:** [View SQL Script](./SQL/03_Data_Preparation/cek_duplicate_dan_null.sql)
 
 **Query Result:**
 
 The query results were reviewed to identify duplicate records and null values that could potentially affect the accuracy of the analysis.
+![Customer Detail Result Null and Duplicate](./customer-detail-null-and-duplicate.png)
+
 
