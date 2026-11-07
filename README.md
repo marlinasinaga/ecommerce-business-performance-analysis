@@ -261,3 +261,30 @@ To evaluate the effectiveness of organic funnel channels by analyzing total orga
 The query results provide an overview of organic funnel performance across different channel sources, including total events, unique converted orders, and conversion rates.
 
 ![Organic Funnel Conversion Query Result](caseno4.png)
+
+### Case Study 5: Customer Registration & First Purchase Analysis
+
+**Business Problem**
+The BI & CRM Lead requires a monthly report on customer registrations and the average time taken for registered customers to make their first purchase in 2024. The analysis will be used to optimize the customer onboarding process.
+
+**Business Question**
+- How many new customers registered each month by `registration_channel` in 2024?
+- What is the average number of days between customer registration and their first purchase?
+- How does the first purchase timeline vary across registration channels?
+
+**Objective**
+To evaluate customer acquisition and onboarding performance by analyzing monthly new customer registrations and the average time to first purchase.
+
+**Analysis Approach**
+- Filter customer registrations during January–December 2024.
+- Identify the first valid transaction date for each customer.
+- Include only customers who have completed at least one valid purchase.
+- Count distinct new customers by month and registration channel.
+- Calculate the average number of days between the actual registration date and first purchase date.
+
+**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/05_customer_acquisition_analysis.sql)
+
+**Query Result:**
+The query results provide a monthly overview of new customer registrations by registration channel and the average time taken for customers to complete their first purchase.
+
+![Customer Registration & First Purchase Analysis](images/customer_acquisition_analysis.png)
