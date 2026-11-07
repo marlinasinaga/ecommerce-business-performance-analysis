@@ -287,4 +287,4 @@ To evaluate customer acquisition and onboarding performance by analyzing monthly
 **Query Result:**
 The query results provide a monthly overview of new customer registrations by registration channel and the average time taken for customers to complete their first purchase.
 
-![Customer Registration & First Purchase Analysis](images/customer_acquisition_analysis.png)
+![Customer Registration & First Purchase Analysis](caseno5.png)
