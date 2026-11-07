@@ -165,7 +165,7 @@ To analyze monthly sales performance by calculating total sales revenue based on
 - Aggregate total sales revenue by month.
 - Present the monthly sales performance from January to December 2024.
 
-**SQL Query:** [View SQL Script](SQL_script.sql)
+**SQL Query:** [View SQL Script](SQL_Script.sql)
 
 ![result query](caseno1.png) 
 
