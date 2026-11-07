@@ -271,3 +271,23 @@ To evaluate customer acquisition and onboarding performance by analyzing monthly
 The query results provide a monthly overview of new customer registrations by registration channel and the average time taken for customers to complete their first purchase.
 
 ![Customer Registration & First Purchase Analysis](caseno5.png)
+
+## Business Conclusions & Recommendations
+
+### Key Business Conclusions
+Based on the analysis of the Tokopaedi e-commerce dataset, several key findings were identified:
+1. **Monthly Sales Performance:** Sales performance in 2024 fluctuated throughout the year, with a significant increase in the fourth quarter and the highest revenue recorded in December.
+2. **Category Sales Trends:** Food & Beverage, Beauty & Personal Care, and Fashion & Footwear were among the highest-volume categories. Fashion & Footwear showed significant growth in 2024.
+3. **Channel Performance:** Revenue and order performance varied across channels, highlighting the need to evaluate channel performance consistently and identify periods of revenue decline.
+4. **Organic Funnel Conversion:** Organic traffic volume and conversion rates differed across channel sources, indicating opportunities to improve conversion efficiency, particularly on channels with high event volume but relatively low conversion rates.
+5. **Customer Acquisition & First Purchase:** Mobile App contributed the highest number of new registrations, while the average time to first purchase indicated opportunities to improve customer onboarding and activation.
+
+### Business Recommendations
+1. **Optimize Seasonal Sales Performance:** Prepare promotional campaigns, inventory, and operational capacity ahead of peak sales periods, particularly in the fourth quarter.
+2. **Improve Inventory Planning:** Prioritize replenishment for high-demand categories while evaluating declining categories and managing low-volume products selectively.
+3. **Enhance Channel Performance:** Investigate revenue declines across channels and replicate strategies from periods with stronger performance.
+4. **Improve Organic Conversion:** Evaluate website user experience and checkout processes to reduce potential conversion barriers.
+5. **Accelerate Customer Activation:** Develop onboarding campaigns, personalized offers, and automated reminders to encourage newly registered customers to make their first purchase sooner.
+
+### Overall Conclusion
+This analysis demonstrates how SQL-based data analysis can support business decision-making across sales performance, inventory planning, marketing channel optimization, organic funnel conversion, and customer acquisition. The findings provide a data-driven foundation for identifying business opportunities and developing more targeted strategies.
