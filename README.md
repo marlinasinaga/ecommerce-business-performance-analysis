@@ -4,7 +4,6 @@ E-commerce Business Performance Analysis using SQL, Python and Looker Studio | M
 ## Business Problem
 
 ### Background
-
 As an e-commerce business continues to grow, management needs a comprehensive understanding of its business performance across sales, customer behavior, product performance, payment methods, and marketing channels.
 
 However, transaction data alone does not provide sufficient insights into the factors driving revenue, customer conversion, and overall business performance.
@@ -19,10 +18,8 @@ However, transaction data alone does not provide sufficient insights into the fa
 | Product & Business Team | Identify high-performing and underperforming products to support product portfolio decisions. |
 | Finance Team | Monitor revenue, discounts, costs, and profitability to improve financial performance. |
 
-### Expected Outcomes
-
+### Expected Outcome
 This project is expected to deliver:
-
 - A comprehensive overview of e-commerce business performance.
 - Identification of key revenue and profitability drivers.
 - Insights into customer purchasing behavior and marketing funnel conversion.
@@ -30,9 +27,7 @@ This project is expected to deliver:
 - Data-driven recommendations to improve revenue, profitability, and operational efficiency.
 
 ## Dataset Overview
-
 This project uses a simulated Tokopedia e-commerce dataset provided by MySkill as part of the Fullstack Data Analysis Final Project.
-
 The dataset consists of six tables containing information about orders, products, customers, payments, transactions, and marketing funnels.
 
 | Table Name | Description |
@@ -47,7 +42,6 @@ The dataset consists of six tables containing information about orders, products
 ## Table Schema
 
 ### 1. order_detail
-
 | Column | Description |
 |---|---|
 | transaction_id | Unique transaction identifier |
@@ -66,7 +60,6 @@ The dataset consists of six tables containing information about orders, products
 | is_net | Indicates completed transactions (1) or return/cancel (0) |
 
 ### 2. product_detail
-
 | Column | Description |
 |---|---|
 | sku_id | Unique product identifier |
@@ -79,7 +72,6 @@ The dataset consists of six tables containing information about orders, products
 | cogs | Cost of Goods Sold |
 
 ### 3. customer_detail
-
 | Column | Description |
 |---|---|
 | customer_id | Unique customer identifier |
@@ -91,14 +83,12 @@ The dataset consists of six tables containing information about orders, products
 | registration_channel | Customer registration channel |
 
 ### 4. payment_detail
-
 | Column | Description |
 |---|---|
 | id | Payment method identifier |
 | payment_method | Payment method name |
 
 ### 5. funnel_detail
-
 | Column | Description |
 |---|---|
 | funnel_id | Unique funnel event identifier |
@@ -111,7 +101,6 @@ The dataset consists of six tables containing information about orders, products
 | order_id | Order identifier |
 
 ### 6. transaction_detail
-
 | Column | Description |
 |---|---|
 | transaction_id | Unique transaction identifier |
@@ -180,10 +169,9 @@ How many units were sold for each product category annually from 2020 to 2024?
 **Objective**
 To analyze the annual sales volume (quantity) of each product category and identify category-level demand trends to support data-driven restocking decisions.
 
-**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/02_category_sales_trend.sql)
+**SQL Query:** [View SQL Script](SQL_Script.sql)
 
 **Query Result:**
-
 The query results show the total quantity sold for each product category from 2020 to 2024.
 
 ![Category Sales Trend Query Result](caseno2.png) 
@@ -218,10 +206,9 @@ To evaluate monthly marketing channel performance by analyzing distinct order vo
 - Compare 2024 revenue with the corresponding month in 2023.
 - Calculate revenue growth percentage year-over-year (YoY).
 
-**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/03_channel_performance_growth.sql)
+**SQL Query:** [View SQL Script](SQL_Script.sql)
 
 **Query Result:**
-
 The query results provide a monthly comparison of order volume and revenue across web, app, and offline channels, including revenue growth compared to the same month in the previous year.
 
 ![Marketing Channel Performance Query Result](caseno3a.png)
@@ -230,7 +217,6 @@ The query results provide a monthly comparison of order volume and revenue acros
 ### Case Study 4: Organic Funnel Conversion Analysis
 
 **Business Problem**
-
 The Marketing Manager requires an analysis of the organic funnel performance in 2024 to evaluate the effectiveness of organic acquisition channels in generating converted orders.
 
 **Business Question**
@@ -252,10 +238,9 @@ To evaluate the effectiveness of organic funnel channels by analyzing total orga
 
 - Rank channel sources based on their conversion rates.
 
-**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/04_organic_funnel_conversion.sql)
+**SQL Query:** [View SQL Script](SQL_Script.sql)
 
 **Query Result:**
-
 The query results provide an overview of organic funnel performance across different channel sources, including total events, unique converted orders, and conversion rates.
 
 ![Organic Funnel Conversion Query Result](caseno4.png)
@@ -280,7 +265,7 @@ To evaluate customer acquisition and onboarding performance by analyzing monthly
 - Count distinct new customers by month and registration channel.
 - Calculate the average number of days between the actual registration date and first purchase date.
 
-**SQL Query:** [View SQL Script](SQL/04_Study_Case_and_Analysis/05_customer_acquisition_analysis.sql)
+**SQL Query:** [View SQL Script](SQL_Script.sql)
 
 **Query Result:**
 The query results provide a monthly overview of new customer registrations by registration channel and the average time taken for customers to complete their first purchase.
