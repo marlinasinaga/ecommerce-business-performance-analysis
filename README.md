@@ -1,7 +1,29 @@
-# ecommerce-business-performance-analysis
-E-commerce Business Performance Analysis using SQL, Python and Looker Studio | MySkill Fullstack Data Analysis Final Project
+# E-Commerce Business Performance Analysis
+
+**MySkill Fullstack Data Analysis Bootcamp — Final Project | SQL, Python & Looker Studio**
+
+## Overview
+This repository showcases my Final Project from the MySkill Fullstack Data Analysis Intensive Bootcamp. The project consists of a series of data analysis exercises and business case studies using SQL, Python, and Looker Studio.
+
+The objective of this project is to apply data analysis skills to solve business problems, uncover meaningful insights, and provide data-driven recommendations to support business decision-making.
+
+The project is divided into three main components:
+- SQL Analysis
+- Python Analysis
+- Data Visualization using Looker Studio
+
+---
+
+# 1. SQL Final Project
+## Project Overview
+The SQL Final Project focuses on analyzing e-commerce business performance using transactional data. Through SQL queries, the analysis explores sales performance, customer behavior, product performance, and business trends to address various business questions.
+
+The project involves data exploration, data manipulation, aggregation, and analytical queries to extract meaningful insights from the dataset.
 
 ## Business Problem
+The business aims to gain a deeper understanding of its e-commerce performance by analyzing transaction data across multiple dimensions, including sales, products, customers, and payment methods.
+
+The analysis is conducted to answer key business questions and provide insights that can support strategic decisions related to business growth, sales optimization, and customer engagement.
 
 ### Background
 As an e-commerce business continues to grow, management needs a comprehensive understanding of its business performance across sales, customer behavior, product performance, payment methods, and marketing channels.
