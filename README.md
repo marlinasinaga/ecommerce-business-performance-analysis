@@ -313,3 +313,78 @@ Based on the analysis of the Tokopaedi e-commerce dataset, several key findings 
 
 ### Overall Conclusion
 This analysis demonstrates how SQL-based data analysis can support business decision-making across sales performance, inventory planning, marketing channel optimization, organic funnel conversion, and customer acquisition. The findings provide a data-driven foundation for identifying business opportunities and developing more targeted strategies.
+
+# 2. Python E-Commerce Sales Analysis
+
+## Project Overview
+The Python E-Commerce Sales Analysis focuses on evaluating sales performance, product trends, customer payment behavior, and campaign effectiveness using a simulated Tokopaedi e-commerce dataset.
+This project aims to identify key business insights through data analysis and provide actionable recommendations to support marketing strategies, inventory management, customer conversion, and campaign optimization.
+
+The analysis is conducted using Python in Google Colab, leveraging Pandas and NumPy for data processing and Matplotlib and Seaborn for data visualization.
+
+The project consists of four business case studies:
+- **Product Performance Analysis:** Identifying top-selling products to support campaign prize selection.
+- **Sales Decline Analysis:** Evaluating declining sales categories and products to support inventory planning.
+- **Pending Payment Customer Analysis:** Identifying customers with incomplete payments to improve transaction conversion.
+- **Weekday vs. Weekend Campaign Analysis:** Comparing average daily sales on weekdays and weekends to evaluate campaign performance.
+
+Through these analyses, the project demonstrates the application of Python for data-driven business problem-solving and decision-making.
+## Business Case Studies & Analysis
+### Business Case 1: Product Performance Analysis
+**Business Problem**
+The Marketing Team is preparing for the Year-End Festival campaign and needs to identify the best-selling products in the Mobiles & Tablets category to determine suitable products for campaign prizes.
+
+**Business Question**
+Which are the Top 5 best-selling products in the Mobiles & Tablets category based on sales quantity in 2022?
+
+**Business Recommendation**
+- Prioritize the best-selling products as potential prizes for the Year-End Festival campaign.
+- Ensure sufficient inventory of selected products before the campaign begins.
+- Consider alternative popular products to maintain flexibility in prize selection.
+
+### Business Case 2: Sales Decline Analysis
+**Business Problem**
+The business needs to identify product categories and individual products experiencing a decline in sales quantity in 2022 compared with 2021 to support inventory planning and sales strategy evaluation.
+
+**Business Question**
+- Which product categories experienced a decline in sales quantity in 2022 compared with 2021?
+- Which 20 products in the Others category recorded the largest decrease in sales quantity?
+
+**Business Recommendation**
+- Evaluate product relevance and demand trends in declining categories.
+- Consider clearance promotions, product bundling, or targeted marketing for slow-moving products.
+- Adjust inventory replenishment strategies based on recent sales performance.
+- Monitor declining products regularly to support more effective inventory management.
+
+### Business Case 3: Pending Payment Customer Analysis
+**Business Problem**
+The Digital Marketing Team needs to identify customers who completed the checkout process but did not complete payment in 2022. These customers represent potential opportunities for marketing follow-up and transaction conversion.
+
+**Business Question**
+Which customers completed checkout but had not completed payment in 2022, based on their customer ID and registration date?
+
+**Business Recommendation**
+- Send payment reminders through push notifications or other communication channels.
+- Investigate potential barriers during the payment process, including payment gateway issues.
+- Consider targeted promotional incentives to encourage customers to complete their transactions.
+- Monitor the effectiveness of follow-up campaigns through payment conversion rates.
+
+### Business Case 4: Weekday vs. Weekend Campaign Analysis
+**Business Problem**
+The Campaign Team conducted promotional campaigns every Saturday and Sunday from October to December 2022. The team needs to evaluate weekend sales performance compared with weekdays to assess whether weekend campaigns were associated with higher average daily sales.
+
+**Business Question**
+- What was the average daily sales performance on weekends (Saturday and Sunday) compared with weekdays (Monday to Friday) for October, November, and December 2022? Did weekend sales increase in each month?
+- What was the overall average daily sales performance on weekends compared with weekdays throughout October to December 2022?
+
+**Business Recommendation**
+- Evaluate weekend campaign performance by comparing average daily sales with weekday performance for each month.
+- Review campaign mechanics, promotional offers, and customer engagement to identify opportunities for improving weekend sales.
+- Consider testing targeted weekend promotions, such as free shipping or cashback incentives.
+- Use the monthly and overall sales comparison as a reference for optimizing future campaign strategies.
+
+## Project Notebook
+[Open Python Analysis in Google Colab](https://colab.research.google.com/drive/1oXUS5OvqO9zPgupGQ_uqDPKlP7d8hqL-?usp=sharing)
+
+## Disclaimer
+This project uses a simulated Tokopaedi e-commerce dataset for educational purposes and does not represent actual Tokopaedi transaction data.
